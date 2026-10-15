@@ -1,0 +1,1 @@
+{"runcontract":1,"services":[{"name":"textutils","dir":".","stack":"python","kind":"library","install":[["${python}","-m","pip","install","-q","-e",".[dev]"]],"test":[["${python}","-m","pytest"]],"lint":[["${python}","-m","ruff","check","."]]}]}
